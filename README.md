@@ -1,3 +1,13 @@
+##
+add a repo: note: rhel repo does not work but centos is working fine
+```
+sudo yum-config-manager \
+    --add-repo \
+    https://download.docker.com/linux/centos/docker-ce.repo
+```
+sudo yum-config-manager \
+    --add-repo \
+    https://download.docker.com/linux/centos/docker-ce.repo
 
 ## YouTube Link
 For the full 1 hour course watch out youtube:
